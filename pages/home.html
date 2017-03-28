@@ -2,4 +2,13 @@
 	<h1>Home Page</h1>
 	
 	<p>{{ message }}</p>
+
+	<form name="notesForm" id="notesForm">
+		<textarea id="mainText" name="mainText" class="textarea is-focused" style="width: 500px;" maxlength="800" placeholder="Enter text"></textarea>
+	</form>
+	<br>
+	<button id="submitBtn" class="button is-primary" onclick="Create()">Create New note</button>
+	<button id="displayBtn" class="button is-info" onclick="">Display note</button>
+	<br>
+	<div class="list"></div>
 </div>

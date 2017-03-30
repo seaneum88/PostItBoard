@@ -24,10 +24,10 @@ scotchApp.config(function($routeProvider) {
 // create the controller and inject Angular's $scope
 scotchApp.controller('mainController', function($scope) {
     // create a message to display in our view
-    $scope.message = 'Home';
+    $scope.message = 'Make a note by clicking a button.';
 });
 scotchApp.controller('registrationController', function($scope) {
-    $scope.message = 'Join us! This is a demo.';
+    $scope.message = 'Join us!';
 });
 scotchApp.controller('loginController', function($scope) {
     $scope.message = 'Log In!';
